@@ -1,8 +1,11 @@
 import React from 'react'
+import CounterPage from './pages/counterPage'
 
 const App = () => {
   return (
-    <div className='text-7xl'>Hello React</div>
+    <div>
+      <CounterPage />
+    </div>
   )
 }
 
